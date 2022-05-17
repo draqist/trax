@@ -9,7 +9,7 @@ const Navbar = () => {
       </Box>
       <Flex alignItems='center'>
         <AiOutlineBell color='#65676D' fontSize='24px'/>
-        <Avatar name ='something' src-='https://bit.ly/dan-abramov' ml='32.5px'/>
+        <Avatar name ='something' src='https://bit.ly/dan-abramov' ml='32.5px'/>
       </Flex>
     </Flex>
   );

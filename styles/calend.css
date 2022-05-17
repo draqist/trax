@@ -1,0 +1,10 @@
+.react-calendar{
+  border: 2px solid transparent !important;
+  border-radius: 20px;
+  padding: 20px;
+  width: 380px;
+}
+abbr[title]{
+  text-decoration: none none;
+  text-decoration-style: none;
+}
