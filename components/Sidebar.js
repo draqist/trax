@@ -11,27 +11,27 @@ const Sidebar = () => {
       </Box>
       <Box w='100%' h='532px'>
         <List w='100%' >
-          <ListItem w='100%' h='76px' textTransform='uppercase' fontWeight='800' fontSize='18px' py='20px' pl='20px' _hover={{bg:'#FFF4EE', color:'#FD7B38'}} _hover={{bg:'#FFF4EE', color:'#FD7B38', borderRight: '3px solid #FD7B38'}}>
+          <ListItem w='100%' h='76px' textTransform='uppercase' fontWeight='600' fontSize='18px' py='20px' pl='20px' _hover={{bg:'#FFF4EE', color:'#FD7B38'}} _hover={{bg:'#FFF4EE', color:'#FD7B38', borderRight: '3px solid #FD7B38'}}>
             <ListIcon as={MdOutlineSpaceDashboard} color='#65676D' mr='20px'  fontSize='24px' _hover={{color:'#FD7B38'}} />
             dashboard
           </ListItem>
-          <ListItem w='100%' h='76px' textTransform='uppercase' fontWeight='800' fontSize='18px' py='20px' pl='20px' _hover={{bg:'#FFF4EE', color:'#FD7B38',borderRight: '3px solid #FD7B38'}}>
+          <ListItem w='100%' h='76px' textTransform='uppercase' fontWeight='600' fontSize='18px' py='20px' pl='20px' _hover={{bg:'#FFF4EE', color:'#FD7B38',borderRight: '3px solid #FD7B38'}}>
             <ListIcon as={IoBriefcaseOutline} color='#65676D' mr='20px'  fontSize='24px' _hover={{color:'#FD7B38'}} />
             projects
           </ListItem>
-          <ListItem w='100%' h='76px' textTransform='uppercase' fontWeight='800' fontSize='18px' py='20px' pl='20px' _hover={{bg:'#FFF4EE', color:'#FD7B38',borderRight: '3px solid #FD7B38'}}>
+          <ListItem w='100%' h='76px' textTransform='uppercase' fontWeight='600' fontSize='18px' py='20px' pl='20px' _hover={{bg:'#FFF4EE', color:'#FD7B38',borderRight: '3px solid #FD7B38'}}>
             <ListIcon as={AiOutlineProfile} color='#65676D' mr='20px'  fontSize='24px' _hover={{color:'#FD7B38'}} />
             my tasks
           </ListItem>
-          <ListItem w='100%' h='76px' textTransform='uppercase' fontWeight='800' fontSize='18px' py='20px' pl='20px' _hover={{bg:'#FFF4EE', color:'#FD7B38',borderRight: '3px solid #FD7B38'}}>
+          <ListItem w='100%' h='76px' textTransform='uppercase' fontWeight='600' fontSize='18px' py='20px' pl='20px' _hover={{bg:'#FFF4EE', color:'#FD7B38',borderRight: '3px solid #FD7B38'}}>
             <ListIcon as={IoCalendarOutline} color='#65676D' mr='20px'  fontSize='24px' _hover={{color:'#FD7B38'}} />
             calendar
           </ListItem>
-          <ListItem w='100%' h='76px' textTransform='uppercase' fontWeight='800' fontSize='18px' py='20px' pl='20px' _hover={{bg:'#FFF4EE', color:'#FD7B38',borderRight: '3px solid #FD7B38'}}>
+          <ListItem w='100%' h='76px' textTransform='uppercase' fontWeight='600' fontSize='18px' py='20px' pl='20px' _hover={{bg:'#FFF4EE', color:'#FD7B38',borderRight: '3px solid #FD7B38'}}>
             <ListIcon as={AiOutlinePieChart} color='#65676D' mr='20px'  fontSize='24px' _hover={{color:'#FD7B38'}} />
             time management
           </ListItem>
-          <ListItem w='100%' h='76px' textTransform='uppercase' fontWeight='800' fontSize='18px' py='20px' pl='20px' _hover={{bg:'#FFF4EE', color:'#FD7B38',borderRight: '3px solid #FD7B38'}}>
+          <ListItem w='100%' h='76px' textTransform='uppercase' fontWeight='600' fontSize='18px' py='20px' pl='20px' _hover={{bg:'#FFF4EE', color:'#FD7B38',borderRight: '3px solid #FD7B38'}}>
             <ListIcon as={IoSettingsOutline} color='#65676D' mr='20px'  fontSize='24px' _hover={{color:'#FD7B38'}} />
             settings
           </ListItem>

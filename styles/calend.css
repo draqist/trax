@@ -2,7 +2,7 @@
   border: 2px solid transparent !important;
   border-radius: 20px;
   padding: 20px;
-  width: 380px;
+  width: 380px !important;
 }
 abbr[title]{
   text-decoration: none none;

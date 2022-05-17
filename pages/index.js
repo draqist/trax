@@ -1,8 +1,9 @@
-import { Box, Center, Container, Flex } from "@chakra-ui/react";
+import { Box, Flex } from "@chakra-ui/react";
 import Calendar from "react-calendar";
 import Navbar from "../components/Navbar";
 import Sidebar from "../components/Sidebar";
 import 'react-calendar/dist/Calendar.css';
+import TaskCard from "../components/Tasks";
 
 
 export default function Home() {
@@ -11,7 +12,10 @@ export default function Home() {
       <Sidebar />
       <Box w='100%' pr='20px'>
         <Navbar />
-        <Calendar  next2Label={null} prev2Label={null} defaultView="month"/>
+        <Flex justifyContent='space-between' alignItems='flex-start'>
+          <TaskCard/>
+          <Calendar next2Label={null} prev2Label={null} defaultView="month" />
+        </Flex>
       </Box>
     </>
   )
