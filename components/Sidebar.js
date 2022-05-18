@@ -6,21 +6,21 @@ import NextLink from 'next/link'
 
 const Sidebar = () => {
   return ( 
-    <Box w='280px' bg='white' h='100%' borderRightRadius='0px' boxShadow='xl' pos='fixed' zIndex='2'>
-      <Box mb='40px' pt='40px' px='100px' zIndex={'20'}>
+    <Box w={['','','','120px','280px']} bg='white' h='100%' borderRightRadius='0px' boxShadow='xl' pos='fixed' zIndex='2'>
+      <Box mb='40px' pt='40px' px={['20px','20px','20px','38px','100px']} zIndex={'20'}>
         <Image src='logo.svg' alt='dashlogo' w='42px' maxW={'unset'}/>
       </Box>
-      <Box w='100%' h='532px'>
+      <Box display={['none','none','none','none','block']} w='100%' h='532px'>
         <List w='100%' color='#65676D' >
           <NextLink passHref href='/'>
             <ListItem w='100%'  textTransform='uppercase' fontWeight='600' fontSize='18px' py='24px' pl='20px' _hover={{bg:'#FFF4EE', color:'#FD7B38', borderRight: '6px solid #FD7B38'}}>
-              <ListIcon as={MdOutlineSpaceDashboard} mr='20px'  fontSize='22px' />
+              <ListIcon as={MdOutlineSpaceDashboard} mr='20px'  fontSize='48px' />
               dashboard
             </ListItem>
           </NextLink>
           <NextLink passHref href='/projects'>
             <ListItem w='100%'  textTransform='uppercase' fontWeight='600' fontSize='18px' py='24px' pl='20px' _hover={{bg:'#FFF4EE', color:'#FD7B38',borderRight: '6px solid #FD7B38'}}>
-              <ListIcon as={IoBriefcaseOutline} mr='20px'  fontSize='22px' />
+              <ListIcon as={IoBriefcaseOutline} mr='20px'  fontSize='48px' />
               projects
             </ListItem>
           </NextLink>
@@ -46,6 +46,40 @@ const Sidebar = () => {
             <ListItem w='100%'  textTransform='uppercase' fontWeight='600' fontSize='18px' py='24px' pl='20px' _hover={{bg:'#FFF4EE', color:'#FD7B38',borderRight: '6px solid #FD7B38'}}>
               <ListIcon as={IoSettingsOutline} mr='20px'  fontSize='22px' />
               settings
+            </ListItem>
+          </NextLink>
+        </List>
+      </Box>
+      <Box display={['none','none','none','block','block']} w='100%' h='532px' mt='80px'>
+        <List w='100%' color='#65676D' >
+          <NextLink passHref href='/'>
+            <ListItem w='100%'  textTransform='uppercase' fontWeight='600' fontSize='18px' py='36px' px='40px' _hover={{bg:'#FFF4EE', color:'#FD7B38', borderRight: '6px solid #FD7B38'}}>
+              <ListIcon as={MdOutlineSpaceDashboard} mr='20px'  fontSize='36px' />
+            </ListItem>
+          </NextLink>
+          <NextLink passHref href='/projects'>
+            <ListItem w='100%'  textTransform='uppercase' fontWeight='600' fontSize='18px' py='36px' px='40px' _hover={{bg:'#FFF4EE', color:'#FD7B38',borderRight: '6px solid #FD7B38'}}>
+              <ListIcon as={IoBriefcaseOutline} mr='20px'  fontSize='36px' />
+            </ListItem>
+          </NextLink>
+          <NextLink passHref href='tasks'>
+            <ListItem w='100%'  textTransform='uppercase' fontWeight='600' fontSize='18px' py='36px' px='40px' _hover={{bg:'#FFF4EE', color:'#FD7B38',borderRight: '6px solid #FD7B38'}}>
+              <ListIcon as={AiOutlineProfile} mr='20px'  fontSize='36px' />
+            </ListItem>
+          </NextLink>
+          <NextLink passHref href='calendar'>
+            <ListItem w='100%'  textTransform='uppercase' fontWeight='600' fontSize='18px' py='36px' px='40px' _hover={{bg:'#FFF4EE', color:'#FD7B38',borderRight: '6px solid #FD7B38'}}>
+              <ListIcon as={IoCalendarOutline} mr='20px'  fontSize='36px' />
+            </ListItem>
+          </NextLink>
+          <NextLink passHref href='mgmt'>
+            <ListItem w='100%'  textTransform='uppercase' fontWeight='600' fontSize='18px' py='36px' px='40px' _hover={{bg:'#FFF4EE', color:'#FD7B38',borderRight: '6px solid #FD7B38'}}>
+              <ListIcon as={AiOutlinePieChart} mr='20px'  fontSize='36px' />
+            </ListItem>
+          </NextLink>
+          <NextLink passHref href='settings'>
+            <ListItem w='100%'  textTransform='uppercase' fontWeight='600' fontSize='18px' py='36px' px='40px' _hover={{bg:'#FFF4EE', color:'#FD7B38',borderRight: '6px solid #FD7B38'}}>
+              <ListIcon as={IoSettingsOutline} mr='20px'  fontSize='36px' />
             </ListItem>
           </NextLink>
         </List>

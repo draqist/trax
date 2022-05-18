@@ -1,4 +1,4 @@
-import { Avatar, AvatarGroup, Badge, Box, Button, Circle, Flex, Grid, Heading, Image, Progress, Square, Stack, Tag, Text } from "@chakra-ui/react";
+import { Avatar, AvatarGroup, Badge, Box, Button, Circle, Flex, Heading, Image, Progress, Square, Stack, Tag, Text } from "@chakra-ui/react";
 import { AiOutlineStar } from "react-icons/ai";
 import { RiMore2Fill } from "react-icons/ri";
 
