@@ -12,37 +12,37 @@ const Sidebar = () => {
       </Box>
       <Box w='100%' h='532px'>
         <List w='100%' color='#65676D' >
-          <NextLink href='/'>
-            <ListItem w='100%'  textTransform='uppercase' fontWeight='600' fontSize='18px' py='24px' pl='20px' _hover={{bg:'#FFF4EE', color:'#FD7B38'}} _hover={{bg:'#FFF4EE', color:'#FD7B38', borderRight: '6px solid #FD7B38'}}>
+          <NextLink passHref href='/'>
+            <ListItem w='100%'  textTransform='uppercase' fontWeight='600' fontSize='18px' py='24px' pl='20px' _hover={{bg:'#FFF4EE', color:'#FD7B38', borderRight: '6px solid #FD7B38'}}>
               <ListIcon as={MdOutlineSpaceDashboard} mr='20px'  fontSize='22px' />
               dashboard
             </ListItem>
           </NextLink>
-          <NextLink href='/projects'>
+          <NextLink passHref href='/projects'>
             <ListItem w='100%'  textTransform='uppercase' fontWeight='600' fontSize='18px' py='24px' pl='20px' _hover={{bg:'#FFF4EE', color:'#FD7B38',borderRight: '6px solid #FD7B38'}}>
               <ListIcon as={IoBriefcaseOutline} mr='20px'  fontSize='22px' />
               projects
             </ListItem>
           </NextLink>
-          <NextLink href='tasks'>
+          <NextLink passHref href='tasks'>
             <ListItem w='100%'  textTransform='uppercase' fontWeight='600' fontSize='18px' py='24px' pl='20px' _hover={{bg:'#FFF4EE', color:'#FD7B38',borderRight: '6px solid #FD7B38'}}>
               <ListIcon as={AiOutlineProfile} mr='20px'  fontSize='22px' />
               my tasks
             </ListItem>
           </NextLink>
-          <NextLink href='calendar'>
+          <NextLink passHref href='calendar'>
             <ListItem w='100%'  textTransform='uppercase' fontWeight='600' fontSize='18px' py='24px' pl='20px' _hover={{bg:'#FFF4EE', color:'#FD7B38',borderRight: '6px solid #FD7B38'}}>
               <ListIcon as={IoCalendarOutline} mr='20px'  fontSize='22px' />
               calendar
             </ListItem>
           </NextLink>
-          <NextLink href='mgmt'>
+          <NextLink passHref href='mgmt'>
             <ListItem w='100%'  textTransform='uppercase' fontWeight='600' fontSize='18px' py='24px' pl='20px' _hover={{bg:'#FFF4EE', color:'#FD7B38',borderRight: '6px solid #FD7B38'}}>
               <ListIcon as={AiOutlinePieChart} mr='20px'  fontSize='22px' />
               time management
             </ListItem>
           </NextLink>
-          <NextLink href='settings'>
+          <NextLink passHref href='settings'>
             <ListItem w='100%'  textTransform='uppercase' fontWeight='600' fontSize='18px' py='24px' pl='20px' _hover={{bg:'#FFF4EE', color:'#FD7B38',borderRight: '6px solid #FD7B38'}}>
               <ListIcon as={IoSettingsOutline} mr='20px'  fontSize='22px' />
               settings
