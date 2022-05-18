@@ -1,24 +1,24 @@
-import { Avatar, AvatarGroup, Badge, Box, Button, Circle, Flex, Heading, Image, Progress, Square, Stack, Tag, Text } from "@chakra-ui/react";
+import { Avatar, AvatarGroup, Badge, Box, Button, Circle, Flex, Grid, Heading, Image, Progress, Square, Stack, Tag, Text } from "@chakra-ui/react";
 import { AiOutlineStar } from "react-icons/ai";
 import { RiMore2Fill } from "react-icons/ri";
 
 const CompanyTaskCard = () => {
   return ( 
-    <Box w='380px' mb='40px' bg='white' py='30px' px='15px' borderRadius='20px'>
+    <Box w={['360px']} mb='40px' bg='white' py='30px' px='15px' borderRadius='20px'>
       <Flex justifyContent='space-between' alignItems='center'>
-        <Box mr='20px'>
-          <Tag bg='#FFF4EE' w='64px' h='64px' borderRadius='18.67px'>
+        <Stack direction='row' spacing='14px' alignItems='center'>
+          <Square bg='#FFF4EE' w='50px' h='50px' borderRadius='8px'>
             <Image alt='company_logo' src='./google.svg'/>
-          </Tag>
-        </Box>
-        <Box w='200px'>
-          <Heading fontSize='20px' fontWeight='700' color='black'> Google </Heading>
-          <Text color='#65676D' fontSize='16px' fontWeight='500'> Google inc. </Text>
-        </Box>
+          </Square>
+          <Box>
+            <Heading fontSize='18px' fontWeight='700' color='black'> Google </Heading>
+            <Text color='#65676D' fontSize='14px' fontWeight='500'> Google inc. </Text>
+          </Box>
+        </Stack>
         <Flex gap='12px' justifyContent='space-between' alignItems='center'>
-          <Circle size='40px' border='2px solid #E1E1E1'>
+          {/* <Circle size='40px' border='2px solid #E1E1E1'>
             <AiOutlineStar color='#FFA800' fontSize='28px'/>
-          </Circle>
+          </Circle> */}
           <Square size='40px'>
             <RiMore2Fill color='#65676D' fontSize='28px'/>
           </Square>

@@ -7,7 +7,7 @@ import NextLink from 'next/link'
 const Sidebar = () => {
   return ( 
     <Box w='280px' bg='white' h='100%' borderRightRadius='0px' boxShadow='xl' pos='fixed' zIndex='2'>
-      <Box mb='60px' pt='40px' px='138px' zIndex={'20'}>
+      <Box mb='40px' pt='40px' px='100px' zIndex={'20'}>
         <Image src='logo.svg' alt='dashlogo' w='42px' maxW={'unset'}/>
       </Box>
       <Box w='100%' h='532px'>

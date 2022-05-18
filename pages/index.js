@@ -15,6 +15,7 @@ export default function Home() {
           <Navbar />
           <Flex justifyContent='space-between' alignItems='flex-start'>
             <CompanyTaskCard/>
+            <CompanyTaskCard/>
             <Calendar next2Label={null} prev2Label={null} defaultView="month" />
           </Flex>
             <Calendar next2Label={null} prev2Label={null} defaultView="month" />
