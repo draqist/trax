@@ -3,7 +3,7 @@ import { AiOutlineBell } from "react-icons/ai";
 
 const Navbar = () => {
   return (
-    <Flex borderRadius='20px' mt='20px' mb='40px' justifyContent={['space-between']} alignItems={['center']} px='30px' h='80px' bg='white' w='100%'>
+    <Flex borderRadius='20px'  mb='40px' justifyContent={['space-between']} alignItems={['center']} px='30px' h='80px' bg='white' w='100%'>
       <Box>
         <Input placeholder="Search" bg='#F7F6F4'/>
       </Box>

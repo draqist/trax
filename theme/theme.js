@@ -1,6 +1,9 @@
 import { extendTheme } from '@chakra-ui/react'
 
 const theme = extendTheme({
+  colors: {
+    progress: '#545DAD'
+  },
   components: {
     Button: {
       baseStyle: {
