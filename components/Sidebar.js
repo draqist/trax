@@ -14,13 +14,13 @@ const Sidebar = () => {
         <List w='100%' color='#65676D' >
           <NextLink passHref href='/'>
             <ListItem w='100%'  textTransform='uppercase' fontWeight='600' fontSize='18px' py='24px' pl='20px' _hover={{bg:'#FFF4EE', color:'#FD7B38', borderRight: '6px solid #FD7B38'}}>
-              <ListIcon as={MdOutlineSpaceDashboard} mr='20px'  fontSize='48px' />
+              <ListIcon as={MdOutlineSpaceDashboard} mr='20px'  fontSize='22px' />
               dashboard
             </ListItem>
           </NextLink>
           <NextLink passHref href='/projects'>
             <ListItem w='100%'  textTransform='uppercase' fontWeight='600' fontSize='18px' py='24px' pl='20px' _hover={{bg:'#FFF4EE', color:'#FD7B38',borderRight: '6px solid #FD7B38'}}>
-              <ListIcon as={IoBriefcaseOutline} mr='20px'  fontSize='48px' />
+              <ListIcon as={IoBriefcaseOutline} mr='20px'  fontSize='22px' />
               projects
             </ListItem>
           </NextLink>
@@ -50,7 +50,7 @@ const Sidebar = () => {
           </NextLink>
         </List>
       </Box>
-      <Box display={['none','none','none','block','block']} w='100%' h='532px' mt='80px'>
+      <Box display={['none','none','none','block','none']} w='100%' h='532px' mt='80px'>
         <List w='100%' color='#65676D' >
           <NextLink passHref href='/'>
             <ListItem w='100%'  textTransform='uppercase' fontWeight='600' fontSize='18px' py='36px' px='40px' _active={{bg:'#FFF4EE', color:'#FD7B38', borderRight: '6px solid #FD7B38'}} _hover={{bg:'#FFF4EE', color:'#FD7B38', borderRight: '6px solid #FD7B38'}}>

@@ -5,6 +5,11 @@ const theme = extendTheme({
     progress: '#545DAD'
   },
   components: {
+    Input: {
+      baseProps: {
+        focusBorderColor: 'transparent'
+      }
+    },
     Button: {
       baseStyle: {
         _focus: {
