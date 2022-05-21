@@ -1,12 +1,12 @@
 import { Box, Flex } from "@chakra-ui/react";
 import Calendar from "react-calendar";
-import Navbar from "../components/Navbar";
-import Sidebar from "../components/Sidebar";
 import 'react-calendar/dist/Calendar.css';
-import CompanyTaskCard from "../components/Tasks";
+import Navbar from "../../components/Navbar";
+import Sidebar from "../../components/Sidebar";
+import CompanyTaskCard from "../../components/Tasks";
 
 
-export default function Home() {
+export default function Management() {
   return (
     <>
       <Sidebar />
@@ -27,7 +27,7 @@ export default function Home() {
   )
 }
 
-Home.getLayout = function getLayout(page) {
+Management.getLayout = function getLayout(page) {
   return (
     <Flex direction='row' w='100%' h='100%' >
       { page }

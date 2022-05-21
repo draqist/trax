@@ -1,12 +1,13 @@
 import { Box, Flex } from "@chakra-ui/react";
 import Calendar from "react-calendar";
-import Navbar from "../components/Navbar";
-import Sidebar from "../components/Sidebar";
 import 'react-calendar/dist/Calendar.css';
-import CompanyTaskCard from "../components/Tasks";
+import CheckList from "../../components/Checklist";
+import Navbar from "../../components/Navbar";
+import Sidebar from "../../components/Sidebar";
+import CompanyTaskCard from "../../components/Tasks";
 
 
-export default function Home() {
+export default function MyCalendar() {
   return (
     <>
       <Sidebar />
@@ -14,20 +15,24 @@ export default function Home() {
         <Box px={['','','','40px','20px']} py='20px' bg='#F7F7F4' pos='relative' left={['','','','120px','280px']}>
           <Navbar />
           <Flex justifyContent='space-between' alignItems='flex-start'>
-            <CompanyTaskCard />
-            <Box display={['none','none','','none','block']}>
               <CompanyTaskCard/>
+            <Box display={['none','none','','none','block']}>
+            <CheckList/>
             </Box>
             <Calendar next2Label={null} prev2Label={null} defaultView="month" />
           </Flex>
+          <Flex justifyContent='space-between' alignItems='flex-start'>
+            <CompanyTaskCard />
             <Calendar next2Label={null} prev2Label={null} defaultView="month" />
+            <CheckList/>
+          </Flex>
         </Box>
       </Box>
     </>
   )
 }
 
-Home.getLayout = function getLayout(page) {
+MyCalendar.getLayout = function getLayout(page) {
   return (
     <Flex direction='row' w='100%' h='100%' >
       { page }

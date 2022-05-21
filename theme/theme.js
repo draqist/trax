@@ -26,7 +26,7 @@ const theme = extendTheme({
       Link: {
         baseStyle: {
           _focus: {
-            outline: 'none',
+            focusBorderColor: 'none',
           }
         },
       }
